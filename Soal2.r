@@ -1,5 +1,5 @@
 #Soal nomor 2
-n - 20
+n = 20
 p = 0.2
 
 #2.a
