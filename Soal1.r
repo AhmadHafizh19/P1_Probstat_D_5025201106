@@ -23,3 +23,6 @@ data.frame(x = 0:10, prob = dgeom(x = 0:10, prob = p)) %>% mutate(Failures = ife
   geom_text(aes(label = round(prob,2), y = prob + 0.01), position = position_dodge(0.9), size = 3, vjust = 0) +
   labs(title = "Histogram Distribusi Geometrik", subtitle = "Peluang X = 3 gagal Sebelum Sukses Pertama", x = "Kegagalan sebelum sukses yang pertama (x)", y = "Peluang") 
 
+#1.e
+varian = (n - p) / ('^'(p, 2))
+varian
